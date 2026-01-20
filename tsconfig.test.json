@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": ".tmp_test",
+    "rootDir": ".",
+    "noEmit": false,
+
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
+  },
+  "include": [
+    "tests/**/*.ts",
+    "src/lib/**/*.ts",
+    "src/types/**/*.ts"
+  ]
+}
